@@ -4,19 +4,12 @@ import {
   StyleSheet,
   View,
   ActivityIndicator,
-  Dimensions,
-  Platform,
-  AppState,
   TouchableOpacity
 } from "react-native";
 
 import { WebView } from 'react-native-webview';
 
 import EventEmitter from 'event-emitter'
-
-import AsyncStorage from '@react-native-community/async-storage';
-
-const URL = require("epubjs/libs/url/url-polyfill.js");
 
 const EMBEDDED_HTML = `
 <!DOCTYPE html>
