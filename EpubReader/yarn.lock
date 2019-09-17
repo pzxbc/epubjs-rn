@@ -1993,8 +1993,8 @@ envinfo@^5.7.0:
   integrity sha512-pwdo0/G3CIkQ0y6PCXq4RdkvId2elvtPCJMG0konqlrfkWQbf1DWeH9K2b/cvu2YgGvPPTOnonZxXM1gikFu1w==
 
 "epubjs-rn@file:./epubjs-rn.r16.tgz":
-  version "0.1.2"
-  resolved "file:./epubjs-rn.r16.tgz#9a3a01ca292a3ffd280555de0e244f5682a81649"
+  version "0.1.4"
+  resolved "file:./epubjs-rn.r16.tgz#1192a218775ab71d9032a98adab7fe4d52420bff"
   dependencies:
     "@babel/polyfill" "^7.4.4"
     "@lightbase/react-native-orientation" "^3.2.1"
