@@ -317,6 +317,7 @@ class Rendition extends Component {
       case "rendered": {
         if (!this.state.loaded) {
           this.setState({loaded: true});
+          this.props.onRendered && this.props.onRendered();
         }
         break;
       }
